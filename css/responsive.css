@@ -72,7 +72,7 @@ html {
         padding: 15px 30px  132px;
         border-radius: 0px 0px 30%;
         background-size: cover;
-        background-image: url(/img/rectangle.png);
+        background-image: url(img/rectangle.png);
         height: 470px;
         width: 100%;
         padding-bottom: 100px !important;
@@ -96,11 +96,11 @@ html {
    }
    
    .happy_image {
-        background-image: url(/img/head.svg);
+        background-image: url(img/head.svg);
         height: 300px;
    }
    .globo_1_image_1 {
-    background-image: url(/img/g1.svg);
+    background-image: url(img/g1.svg);
     background-position: left;
     height: 240px;
     width: 100px;
@@ -109,7 +109,7 @@ html {
     top: 301px;
    }
    .globo_1_image_2 {
-    background-image: url(/img/g2.svg);
+    background-image: url(img/g2.svg);
     height: 223px;
     width: 100px;
     position: absolute;
@@ -117,7 +117,7 @@ html {
     top: 336px;
    }
    .globo_1_image_3 {
-    background-image: url(/img/g3.svg);
+    background-image: url(img/g3.svg);
     height: 214px;
     width: 100px;
     position: absolute;
@@ -125,7 +125,7 @@ html {
     top: 402px;
    }
    .globo_2_image {
-    background-image: url(/img/globo_2.svg);
+    background-image: url(img/globo_2.svg);
     height: 306px;
     width: 100px;
     position: absolute;
@@ -235,12 +235,12 @@ html {
   }
 
   .play_white {
-      background-image: url(/img/play.svg);
+      background-image: url(img/play.svg);
       height: 34px;
       width: 34px;
   }
   .play_2 {
-    background-image: url(/img/play_2.svg);
+    background-image: url(img/play_2.svg);
     height: 30px;
     position: absolute;
     width: 30px;
@@ -248,7 +248,7 @@ html {
     right: 12px;
   }
   .cake {
-    background-image: url(/img/cake.svg);
+    background-image: url(img/cake.svg);
     height: 34px;
     width: 34px;
     padding: 15px 30px 132px;
@@ -269,7 +269,7 @@ html {
   .path {
       text-align: center;
     padding: 40px 50px 15px 40px;
-    background-image: url(/img/path.svg);
+    background-image: url(img/path.svg);
     height: 34px;
     width: 34px;
     /* padding: 15px 30px 132px; */
@@ -284,7 +284,7 @@ html {
     text-align: center;
     padding: 66px 50px 15px 40px;
     border-radius: 97px 35px 0 0;
-    background-image: url(/img/gifts.svg);
+    background-image: url(img/gifts.svg);
     background-size: contain;
     background-color: rgba(183, 21, 212, 0.07);
     height: 34px;
