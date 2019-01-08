@@ -1,0 +1,42 @@
+<html>
+
+<body style='font-size:40px'>
+    <div id=alldiv>
+        <div id=messagediv style='font-style:italic'>Loading…</div>
+        <div id=readystatediv style='font-style:italic'></div>
+        <script>
+            var audio = new Audio("/audio/audio_test.mp3")
+            var played = false
+            var start = function () {
+                if (played)
+                    return;
+                played = true
+                audio.play()
+                messagediv.innerHTML = "Playing audio. <button style='font-size:inherit' onclick='audio.pause()'>Stop</button>"
+                alldiv.onclick = ''
+            }
+
+            audio.addEventListener('canplaythrough', start, false)
+            if (audio.readyState > 3)
+                start()
+
+            var loop = function () {
+                readystatediv.innerHTML = "readyState=" + audio.readyState
+                setTimeout(loop, 16)
+            }
+            loop()
+
+            alldiv.onclick = function () {
+                start()
+            }
+
+            alldiv.addEventListener('touchstart', start, false)
+            alldiv.addEventListener('click', start, false)
+        </script>
+        <div style='height:70vh;background:#EFE'>
+            The rest of the webpage takes up all of this space. On Safari audio will start on the first tap anywhere.
+        </div>
+    </div>
+</body>
+
+</html>

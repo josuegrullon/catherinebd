@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"> -->
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CUMPLE AÑOS</title>
+  <link href="vendor/bootstrap4/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700,800,900" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/half-slider.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <script>
+    function playA() {
+      document.getElementById('play').play();
+    }
+    function playB() {
+      document.getElementById('play2').play();
+    }
+    function playK() {
+      var i = document.getElementById('play2');
+      i.play();
+      $(".play_white").css('transform', 'rotate(90deg)')
+      $(".touchit").addClass('pulse')
+
+      i.addEventListener("ended", function (e) {
+        $(".play_white").css('transform', 'rotate(0deg)')
+        $(".touchit").removeClass('pulse')
+      }, false);
+
+    }
+
+  </script>
+
+  <audio id="play" src="/audio/audio_test.mp3"></audio>
+  <audio id="play2" src="/audio/audio_test_2.mp3"></audio>
+
+  <!-- <button onclick="playA()" onclick="playSound()">Play</button> -->
+
+  <!-- <audio controls>
+    <source src="/audio/audio_test.mp3" type="audio/mp3">
+  </audio> -->
+  <header style="background-color: white;">
+    <div class="wrap_master">
+      <div data-aos="zoom-in" class="j_bg_image happy_image"></div>
+      <div>
+        <div class="j_bg_image globo_1_image_1 avatar_1"></div>
+        <div class="j_bg_image globo_1_image_2 avatar_2"></div>
+        <div class="j_bg_image globo_1_image_3 avatar_3"></div>
+
+      </div>
+    </div>
+    <div class="general_text heading_text">Type Something</div>
+    <div class="general_text paragraph">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+      by injected humour, or randomised words.</div>
+  </header>
+
+  <section>
+    <!-- CAROUSEL -->
+    <div class="   slider-wrap d-sm-block " style=" margin-top: 8% !important; ">
+      <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto;
+        top: 0px; left: 0px; width: 1300px; height: 532px; overflow: hidden;">
+
+        <!-- Slides Container -->
+        <div data-u="slides" class="slidd">
+          <div>
+            <div data-u="image" style="transform: rotate(15deg); background-image: url(img/rectangle_a.svg);     background-size: contain;
+                  top: 90px !important;
+                  background-position: center;
+                  background-repeat: no-repeat; "></div>
+          </div>
+          <div>
+            <div data-u="image" style="background-image: url(img/rectangle_a.svg);     background-size: contain;
+              top: 90px !important;
+              background-position: center;
+              background-repeat: no-repeat;"></div>
+          </div>
+          <div>
+            <div data-u="image" style="transform: rotate(-16deg);
+               background-image: url(img/rectangle_a.svg);      background-size: contain;
+                  top: 90px !important;
+                  background-position: center;
+                  background-repeat: no-repeat;"></div>
+          </div>
+          <div>
+            <div data-u="image" style="
+            background-image: url(img/rectangle_a.svg); background-size: contain;
+                  top: 90px !important;
+                  background-position: center;
+                  background-repeat: no-repeat;"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- CAROUSEL -->
+
+
+
+  </section>
+  <section style="position: relative; text-align: center;">
+    <div class="j_bg_image globo_2_image " data-aos="fade-up"></div>
+    <div class="margin-custom center_ph general_text paragraph">
+      There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by
+      injected humour, or randomised words.
+      <br>
+      <br> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+      form, by injected humour, or randomised words.
+      <br>
+      <br> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+      form, by injected humour, or randomised words.
+      <br>
+      <br>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+      by injected humour, or randomised words.</div>
+
+
+    <button onclick="playK()" class="button_k button_touch_me touchit">
+      <div class="w_play">
+        <div class="j_bg_image play_white"></div>
+        <div class="touchme_text">Tocame</div>
+      </div>
+    </button>
+  </section>
+
+  <section>
+    <div class="j_bg_image cake"></div>
+  </section>
+
+
+  <section style="text-align: center;">
+    <div class="fix-padding ml-auto general_text heading_text">Mi Familia</div>
+    <div class="fix-padding ml-auto general_text paragraph">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+      by injected humour, or randomised words.</div>
+  </section>
+
+  <section style="padding: 40px 50px 15px 40px;">
+    <div class="row">
+      <div class="col-4">
+
+        <button onclick="playA()" class="button_k_2 button_play" style="background-color: #fcb316 !important;">
+          <div class="w_play">
+            <div class="j_bg_image play_2"></div>
+            <div class="playb_text">More</div>
+          </div>
+        </button>
+
+      </div>
+      <div class="col-4">
+
+        <button onclick="playB()" class="button_k_2 button_play" style="background-color: #985c7e !important;">
+          <div class="w_play">
+            <div class="j_bg_image play_2"></div>
+            <div class="playb_text">Cindy</div>
+          </div>
+        </button>
+      </div>
+      <div class="col-4">
+
+        <button onclick="playA()" class="button_k_2 button_play" style="background-color: #6c63ff !important;">
+          <div class="w_play">
+            <div class="j_bg_image play_2"></div>
+            <div class="playb_text">Yeltsin</div>
+          </div>
+        </button>
+      </div>
+    </div>
+    <div class="row" style="    padding: 25px 58px;">
+      <div class="col-6">
+
+        <button onclick="playB()" class="button_k_2 button_play" style="background-color: #00bbc1 !important;">
+          <div class="w_play">
+            <div class="j_bg_image play_2"></div>
+            <div class="playb_text">Ada</div>
+          </div>
+        </button>
+      </div>
+      <div class="col-6">
+
+        <button onclick="playA()" class="button_k_2 button_play" style="background-color: #ce3457 !important;">
+          <div class="w_play">
+            <div class="j_bg_image play_2"></div>
+            <div class="playb_text">Juana</div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+  <section style="text-align: center;">
+    <div class="fix-padding ml-auto general_text paragraph">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+      by injected humour, or randomised words.</div>
+    <div class="fix-padding ml-auto general_text heading_text">Tus amigos</div>
+    <div class="fix-padding ml-auto general_text paragraph">There are many variations of passages of Lorem Ipsum available.</div>
+  </section>
+
+  <section class="path">
+
+    <div class="row" style="margin-top: 32px; margin-bottom: 50px;">
+      <div class="col-4">
+
+        <button onclick="playA()" class="button_k_2 button_play" style="background-color: #feb004 !important;">
+          <div class="w_play">
+            <div class="j_bg_image play_2"></div>
+            <div class="playb_text">Kisairy</div>
+          </div>
+        </button>
+
+      </div>
+      <div class="col-4">
+
+        <button onclick="playA()" class="button_k_2 button_play" style="background-color: #dd004b !important;">
+          <div class="w_play">
+            <div class="j_bg_image play_2"></div>
+            <div class="playb_text">Omar</div>
+          </div>
+        </button>
+      </div>
+      <div class="col-4">
+
+        <button onclick="playA()" class="button_k_2 button_play" style="background-color: #b715d4 !important;">
+          <div class="w_play">
+            <div class="j_bg_image play_2"></div>
+            <div class="playb_text">Omar</div>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <div class="fix-padding ml-auto general_text heading_text">Tu mami</div>
+    <div class="fix-padding-2 ml-auto general_text paragraph">There are many variations of passages of Lorem Ipsum available.</div>
+
+    <div class="row" style="margin-top: 47px; margin-bottom: 40px;">
+      <div class="col-12" style="    display: flex;
+      align-items: center;
+      justify-content: center;">
+
+        <button onclick="playA()" class="button_k_2 button_play" style="background-color: #dd004b !important;">
+          <div class="w_play">
+            <div class="j_bg_image play_2"></div>
+            <div class="playb_text">Angelica</div>
+          </div>
+        </button>
+
+      </div>
+
+
+
+    </div>
+    <!-- <div class="path_fill_bottom"></div> -->
+  </section>
+  <section class="foot">
+    <div class="fix-padding ml-auto general_text heading_text">Tu novio</div>
+    <div class="fix-padding-2 ml-auto general_text paragraph">There are many variations of passages of Lorem Ipsum available.</div>
+
+    <div class="row" style="margin-top: 47px; margin-bottom: 40px;">
+      <div class="col-12" style="    display: flex;
+        align-items: center;
+        justify-content: center;">
+
+        <button onclick="playA()" class="button_k_2 button_play" style="background-color: #dd004b !important;">
+          <div class="w_play">
+            <div class="j_bg_image play_2"></div>
+            <div class="playb_text">Felix</div>
+          </div>
+        </button>
+
+      </div>
+
+    </div>
+
+    <img data-aos="fade-up" src="/img/28.svg" class="auto-img" alt="">
+  </section>
+
+  <!-- Bootstrap core JavaScript -->
+  <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+  <!-- <script src="js/ijquery.min.js"></script> -->
+  <script type="text/javascript" src="js/ijquery.js"></script>
+  <script src="js/boobundle.js"></script>
+  <script type="text/javascript" src="js/jssor.js"></script>
+  <script src="js/carousel_s.js"></script>
+  <!-- <script src="js/script.js"></script>
+  <script src="js/script_2.js"></script>
+  <script src="js/custom_select.js"></script>
+  <script src="js/carousel.js"></script> -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
